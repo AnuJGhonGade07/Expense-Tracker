@@ -1,7 +1,7 @@
 import axios from 'axios';
 import App from '../App';
 
-const API = "https://expense-tracker-backend-cqgv.onrender.com";
+const API = "https://expense-tracker-backend-cqgv.onrender.com/api/auth";
 
 export const registerUser = async (userData) => {
     const response = await axios.post(`${API}/register`,userData);
