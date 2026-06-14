@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/api/dashboard";
+const API = "https://expense-tracker-backend-cqgv.onrender.com";
 
 export const getDashboardData = async()=>{
 
