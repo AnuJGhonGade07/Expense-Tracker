@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API =
-"https://expense-tracker-backend-cqgv.onrender.com";
+"https://expense-tracker-backend-cqgv.onrender.com/api/users/profile";
 
 export const getProfile =
 async () => {
