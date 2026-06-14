@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "https://expense-tracker-backend-cqgv.onrender.com";
+const API = "https://expense-tracker-backend-cqgv.onrender.com/api/analytics";
 
 export const getCategoryAnalytics = async () => {
     
